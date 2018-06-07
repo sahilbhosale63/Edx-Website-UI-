@@ -2,7 +2,8 @@
 This is a design template for edX website.
 
 # edX Website Home Page
-![screenshot1](https://user-images.githubusercontent.com/21124445/41076812-03b51e12-6a31-11e8-97f1-1153d89247a1.png)
 
-![screenshot2](https://user-images.githubusercontent.com/21124445/41076813-03e48f1c-6a31-11e8-8c36-8371b330b88f.png)
+![screenshot1](https://user-images.githubusercontent.com/21124445/41085160-cd87461c-6a53-11e8-8463-4be6f6ccf540.png)
+
+![screenshot2](https://user-images.githubusercontent.com/21124445/41085162-ce66b22a-6a53-11e8-9376-7148a05c95e6.png)
 
