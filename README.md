@@ -1,4 +1,4 @@
-# Edx-Website-UI-
+# Edx-Website-UI
 This is a design template for edX website.
 
 # edX Website Home Page
