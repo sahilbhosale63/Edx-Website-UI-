@@ -53,8 +53,7 @@ header{
  }
 
   .contents ul li a:hover{
-    background-color: #01579B;
-    color: #fff;
+    color: #4e4e4e;
   }
 
 .login-btn{
@@ -210,7 +209,7 @@ header{
  }
 
  footer {
-   position: relative;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -346,3 +345,64 @@ header{
   float: left;
   color: #595959;
 }
+
+/* Drop Down */
+/* .drop_down_container{
+  background-color: #fff;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, .3);
+}
+.drop_first_section{
+   display: flex;
+   flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3e4144;
+}
+
+
+.drop_first_section h2,button{
+  display: none;
+}
+
+.drop_second_section ul li{
+  display: none;
+}
+
+.contents ul li:hover ul li{
+  display: block;
+}
+
+.drop_header h2{
+  color: #3e4144;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-right: 230px;
+  float: left;
+}
+
+.drop_btn button{
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #01579B;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  margin-left: 230px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.drop_second_section ul{
+  margin: 20px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop_second_section ul li a{
+  float: left;
+  color: #3e4144;
+}
+
+.drop_down_container div{
+  display: none;
+} */
