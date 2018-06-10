@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  header{
+    position: relative;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+      padding: 10px;
+      background: white;
+  }
+  
+  #container{
+    width: 100%;
+    height: 70px;
+  }
+  
+  #container div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .logo img{
+    width: 85px;
+    height: 40px;
+    padding: 20px;
+    margin-left: 30px;
+  }
+  
+  .contents ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+  }
+  
+  .contents ul li {
+     text-align: center;
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+  
+   .contents ul li a{
+     text-decoration: none;
+     font-size: 16px;
+     color: #4e4e4e;
+     font-family: 'Montserrat', sans-serif;
+     display: block;
+   }
+  
+    .contents ul li a:hover{
+      color: #F5A425;
+    }
+  
+  .login-btn{
+    float: right;
+    margin-right: 100px;
+  }
+  
+  .btn1{
+    font-size: 18px;
+    background:none;
+    border:none;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: #4e4e4e;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn1:hover{
+    color: #F5A425;
+  }
+  
+  .btn2{
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #F5A425;
+    padding: 8px 10px 8px 10px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Main image with text and button*/
+.content-wrapper{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .content-wrapper img{
+    width: 100%;
+    height: 400px;
+    background-color: #4e4e4e;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -26%;
+  }
+  
+  .text-wrapper h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    margin-left: 60px;
+  }
+  
+  .text-wrapper h2{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    margin-left: 60px;
+  }
+
+  /* Middle Section */
+  .middle_section{
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 60px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+     flex-direction: row;
+  }
+
+  .middle_section p{
+    color: #5F5F5F;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+  }
+
+  .middle_btn{
+      padding-left: 60px;
+  }
+
+  .middle_btn button{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #a20025;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+
+  /* Courses List */
+
+  .courses_list{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .courses_block{
+      width: 280px;
+      height: 166;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+      margin-left: 40px;
+      margin-top: 70px;
+      position: relative;
+      border-bottom: 4px solid #008800;
+  }
+
+  .courses_block img{
+      width: 280px;
+      height: 166px;
+      margin-bottom: -5px;
+  }
+
+  .verified{
+      width: 280px;
+      height: 15px;
+      display: flex;
+      flex-direction: row;
+      background-color: #008800;
+  }
+
+  .verified h5{
+      color: #fff;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .verified img{
+      width: 45px;
+      height: 40px;
+  }
+
+  .courses_block h3{
+      padding-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      padding-top: 20px;
+  }
+
+  .courses_block h2{
+      padding-left: 10px;
+      padding-top: 10px;
+      font-size: 22px;
+      color: #4e4e4e;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .courses_block h4{
+      padding-top: 60px;
+      padding-left: 10px; 
+      padding-bottom: 10px;
+      color: #4e4e4e;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+
+
+
+
+  /* Footer */
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1F272B;
+    color: white;
+    text-align: center;
+  }
+  
+   .footer-wrapper{
+     width: 100%;
+     height: 280px;
+     display: flex;
+     flex-direction: row;
+     margin-top: 30px;
+   }
+  
+  
+  .footer-wrapper .footer_image img{
+    width: 120px;
+    height: 60px;
+  }
+  
+  .footer_image{
+    margin: 40px;
+  }
+  
+  .first_section{
+    margin: 40px;
+  }
+  
+  .second_section{
+    margin: 40px;
+  }
+  
+  .third_section{
+    margin: 40px;
+  }
+  
+  .share{
+    margin: 40px;
+  }
+  
+  .first_title h2{
+    color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+  }
+  
+  .second_title h2{
+    color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+  }
+  
+  .third_title h2{
+    color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+  }
+  
+  .first_list{
+    margin-top: 50px;
+  }
+  
+  .second_list{
+    margin-top: 50px;
+  }
+  
+  .third_list{
+    margin-top: 50px;
+  }
+  
+  .first_list ul li{
+    text-align: left;
+  }
+  
+  .second_list ul li{
+    text-align: left;
+  }
+  
+  .third_list ul li{
+    text-align: left;
+  }
+  .first_list ul li a{
+    color: #F4F4F4;
+    text-decoration: none;
+  }
+  
+  .second_list ul li a{
+    color: #F4F4F4;
+    text-decoration: none;
+  }
+  
+  .third_list ul li a{
+    color: #F4F4F4;
+    text-decoration:none;
+  }
+  
+  
+  .social_icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+  }
+  
+  .social_icons ul li{
+    text-align: center;
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-right: 5px;
+  }
+  .social_icons ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #F4F4F4;
+  }
+  
+  .footer-wrapper .apps img{
+    width: 300px;
+    height: 45px;
+  }
+  
+  .apps img{
+    float: left;
+  }
+  
+  .copyright_tag{
+    margin-top: 70px;
+  }
+  
+  .copyright_tag h3{
+    font-size: 18px;
+    float: left;
+    color: #F4F4F4;
+  }
