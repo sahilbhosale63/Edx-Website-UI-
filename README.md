@@ -1,6 +1,8 @@
 # Edx-Website-UI
 This is a design template for edX website.
 
+Website available at:https://sahilbhosale63.github.io/Edx-Website-UI-/
+
 # edX Website Home Page
 
 ![screenshot1](https://user-images.githubusercontent.com/21124445/41085160-cd87461c-6a53-11e8-8463-4be6f6ccf540.png)
