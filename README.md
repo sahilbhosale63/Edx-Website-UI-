@@ -1,5 +1,5 @@
 # Edx-Website-UI
-This is a design template for edX website.
+This is a design template for edX website. This template is developed using HTML 5/CSS 3.
 
 Website available at:https://sahilbhosale63.github.io/Edx-Website-UI-/
 
