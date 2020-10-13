@@ -118,7 +118,10 @@ header{
   font-family: 'Roboto', sans-serif;
   background-color: #01579B;
   font-size: 20px;
-  padding: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 30px;
   margin-left: 60px;
 }
@@ -199,13 +202,13 @@ header{
  .browsebtn button{
    color: #01579B;
    font-family: sans-serif;
-   border-color: #01579B;
-   border-radius: 6px;
+   border-color: #0070c5;
+   border-radius: 50px;
    background-color: #fff;
-   font-size: 16px;
+   font-size: 15px;
    padding: 18px;
-   margin-top: 30px;
-   margin-left: 40px;
+   margin-top: 22px;
+   margin-left: 35px;
  }
 
  footer {
