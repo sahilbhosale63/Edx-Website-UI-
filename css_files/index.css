@@ -95,8 +95,8 @@ header{
 }
 
 .content-wrapper img{
-  width: 100%;
-  height: 400px;
+  width: 100vw;
+  height: 90vh;
   background-size: cover;
 }
 
@@ -107,7 +107,7 @@ header{
 }
 
 .text-wrapper h1{
-  color: #3e4144;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   margin-left: 60px;
@@ -118,10 +118,7 @@ header{
   font-family: 'Roboto', sans-serif;
   background-color: #01579B;
   font-size: 20px;
-  padding: 10px;
-  border-radius: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 15px;
   margin-top: 30px;
   margin-left: 60px;
 }
@@ -132,6 +129,8 @@ header{
   background-color: #E1F5FE;
   position: relative;
   margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .search h2{
@@ -153,7 +152,8 @@ header{
     overflow: auto;
     white-space:nowrap;
     overflow-y: scroll;
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .heading{
@@ -182,11 +182,11 @@ header{
    text-align: center;
    display: inline-block;
    padding-left: 5px;
-   padding-top: 4px;
+   padding-top: 15px;
+   padding-bottom: 15px;
    padding-right: 5px;
    margin: 30px;
    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
-   border: 1px solid #636b77;
    font-family: Roboto, sans-serif;
   }
 
@@ -196,19 +196,20 @@ header{
    text-decoration: none;
    font-size: 20px;
    display: block;
+   color: #03A9F4;
  }
 
 
  .browsebtn button{
    color: #01579B;
    font-family: sans-serif;
-   border-color: #0070c5;
-   border-radius: 50px;
+   border-color: #01579B;
+   border-radius: 6px;
    background-color: #fff;
-   font-size: 15px;
+   font-size: 16px;
    padding: 18px;
-   margin-top: 22px;
-   margin-left: 35px;
+   margin-top: 30px;
+   margin-left: 40px;
  }
 
  footer {
