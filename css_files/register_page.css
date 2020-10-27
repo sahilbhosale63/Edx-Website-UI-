@@ -7,7 +7,6 @@
   body{
     width: 100%;
     height: auto;
-  
   }
 
 
@@ -44,3 +43,95 @@
         max-height: 100%;
         overflow: auto;
   }
+
+  .acc_create{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+
+
+  table tr td button{
+    padding: 7px 10px;
+    margin: 3px;
+    border: 0;
+    color: #fff;
+  }
+  
+  .apple{
+    background-color: black;
+    font-size: 16px;
+  }
+  
+  .google{
+    background-color: rgb(6, 132, 235);
+    font-size: 16px;
+  }
+  
+  .facebook{
+    background-color: rgb(78, 135, 241);
+    font-size: 16px;
+  }
+  
+  .microsoft{
+    background-color: rgb(31, 31, 31);
+    font-size: 16px;
+  }
+  
+  
+  
+  .other_options{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  
+  i{
+    padding-right: 6px;
+  }
+  
+
+.input_fields{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.input_fields input{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#create_acc{
+  padding: 14px;
+  border: 0;
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #065683;
+  color: #fff;
+}
+
+
+#parent{
+  display: flex;
+  margin-top: 50px;
+}
+
+.box1{
+  width: 100%;
+}
+
+
+.box3{
+  width: 60%;
+}
+
+
+
+
+
+
+
+
