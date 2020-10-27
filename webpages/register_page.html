@@ -8,6 +8,9 @@
     <!--stylesheet-->
     <link rel="stylesheet" href="/css_files/register_page.css">
 
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
 </head>
 <body>
 
@@ -15,10 +18,58 @@
         <div class="logo">
             <img src="/images/edx.png" alt="#">
         </div>
-      </header>
+    </header>
+
+    <div id="parent">
+
+        <div class="box1"></div>
+
+        <div class="box2">
+            <h3 class="acc_create">Already have an edX account? <a id="create" href="/webpages/signin_page.html">Sign in.</a></h2>
+
+            <p class="other_options">Create an Account using</p>
+
+                <table>
+                    <tr>
+                        <td>
+                            <button class="apple"><i class="fa fa-apple" aria-hidden="true"></i>Apple</button>
+                        </td>
+                        <td>
+                            <button class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</button>
+                        </td>
+                        <td>
+                            <button class="google"><i class="fa fa-google" aria-hidden="true"></i>Google</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="microsoft"><i class="fa fa-edge" aria-hidden="true"></i>Microsoft</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
 
 
+                <p class="other_options">or create a new one here</p>
 
+
+                <div class="input_fields">
+                    <input type="text" name="Email" id="email" placeholder="Full Name">
+                    <input type="text" name="Email" id="email" placeholder="Public Username">
+                    <input type="text" name="Email" id="email" placeholder="Email">
+                    <input type="text" name="Email" id="email" placeholder="Password">
+                    <input type="text" name="Email" id="email" placeholder="Country or Region of Residence">
+                </div>
+
+                <p>By creating an account, you agree to the Terms of Service and Honor Code and you acknowledge that edX and each Member process your personal data in accordance with the Privacy Policy.</p>
+                <button id="create_acc">Create Account</button>
+
+            </div>
+
+        <div class="box3"></div>
+
+    </div>
 
 </body>
 </html>
