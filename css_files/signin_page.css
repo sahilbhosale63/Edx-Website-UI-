@@ -31,7 +31,7 @@
   }
 
   .login_container{
-    width: 300px;
+    width: 310px;
         height: 500px;
     position: absolute; /*Can also be `fixed`*/
         left: 0;
@@ -100,18 +100,22 @@ table tr td button{
 
 .apple{
   background-color: black;
+  font-size: 16px;
 }
 
 .google{
   background-color: rgb(6, 132, 235);
+  font-size: 16px;
 }
 
 .facebook{
   background-color: rgb(78, 135, 241);
+  font-size: 16px;
 }
 
 .microsoft{
   background-color: rgb(31, 31, 31);
+  font-size: 16px;
 }
 
 
@@ -123,4 +127,7 @@ table tr td button{
 }
 
 
+i{
+  padding-right: 6px;
+}
 
